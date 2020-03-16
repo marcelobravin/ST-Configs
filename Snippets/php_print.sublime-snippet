@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[<?php
+  echo "<pre>";
+  print_r( ${1:object} );
+  echo "</pre>";
+?>]]></content>
+  <tabTrigger>print</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

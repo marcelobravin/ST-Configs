@@ -1,0 +1,36 @@
+[
+  { "caption": "-", "id": "last" },
+
+  {
+    "caption": "MARK MENU",
+    "children":
+    [
+
+      {
+        "caption": "Timestamp",
+        "command": "insert_timestamp"
+      },
+
+      {
+        "caption": "Spellcheck",
+        "command": "toggle_setting",
+        "args": {"setting": "spell_check"}
+      },
+/*
+      {
+        "caption": "displayName",
+        "command": "display_name"
+      },
+*/
+      { "caption": "Starlight", "command": "open_file", "args": {"file": "${packages}/User/Themes/Starlight.tmTheme"} }, /* MAPS, commands*/
+
+      { "caption": "sftp_edit_server", "command": "sftp_edit_server" },
+      { "caption": "sftp_browse_server", "command": "sftp_browse_server" },
+      { "caption": "sftp_last_server", "command": "sftp_last_server" },
+      { "caption": "sftp_diff_remote_file", "command": "sftp_diff_remote_file" },
+
+      { "caption": "sftp_download_folder", "command": "sftp_download_folder" }
+      // ,{ "caption": "List files in current dir", "command": "exec", "args": {"cmd": ["dir"]} },
+    ]
+  }
+]

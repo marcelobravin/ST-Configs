@@ -1,0 +1,112 @@
+[
+  { "caption": "-", "id": "last" },
+
+  {
+    "caption": "MARK MENU",
+    "children":
+    [
+/*
+      {
+        "caption": "open_context_url",
+        "command": "open_context_url"
+        "args": {"operation": "www.google.com"}
+      },
+*/
+      {
+        "caption": "open_include",
+        "command": "open_include"
+      },
+
+      {
+        "caption": "show_scope_name",
+        "command": "show_scope_name"
+      },
+
+      {
+        "caption": "Sort_lines",
+        "command": "sort_lines",
+        "args": {"case_sensitive": false}
+      },
+
+      {
+        "caption": "CopyWithLineNumbers",
+        "command": "copy_with_line_numbers" // Separados por underline
+      },
+
+      {
+        "caption": "join_lines",
+        "command": "join_lines"
+      },
+
+      {
+        "caption": "fold",
+        "command": "fold"
+      },
+
+      {
+        "caption": "fold_tag_attributes",
+        "command": "fold_tag_attributes"
+      },
+
+      {
+        "caption": "unfold",
+        "command": "unfold"
+      },
+
+      {
+        "caption": "unfold_all",
+        "command": "unfold_all"
+      },
+
+      {
+        "caption": "encode_entities",
+        "command": "encode_html_entities"
+      },
+
+      {
+        "caption": "decode_entities",
+        "command": "caracteres"
+      },
+
+      {
+        "caption": "Remove Caracteres Especiais",
+        "command": "remove_caracteres"
+      },
+
+      {
+        "caption": "unique",
+        "command": "permute_lines",
+        "args": {"operation": "unique"}
+      },
+
+      {
+        "caption": "set_mark",
+        "command": "set_mark"
+      },
+
+      {
+        "caption": "select_to_mark",
+        "command": "select_to_mark"
+      },
+
+      {
+        "caption": "goto line",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "text": ":"}
+      },
+
+      {
+        "caption": "show_overlay@",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "text": "@"}
+      },
+
+      {
+        "caption": "show_overlay#",
+        "command": "show_overlay",
+        "args": {"overlay": "goto", "text": "#"}
+      }
+
+    ]
+  }
+]

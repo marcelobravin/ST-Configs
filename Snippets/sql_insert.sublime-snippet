@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[INSERT INTO tabela
+  (
+    coluna1,
+    coluna2
+  )
+VALUES
+  (
+    valor1,
+    valor2
+  )]]></content>
+  <tabTrigger>insert</tabTrigger>
+  <scope>text.html.basic, source.php, source.sql</scope>
+</snippet>

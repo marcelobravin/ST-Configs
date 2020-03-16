@@ -1,0 +1,20 @@
+[
+    /* FUNCIONA */
+    { "command": "toggle_setting" , "args": {"setting": "gutter" } } // para settings
+    // , { "command": "toggle_setting" , "args": {"setting": "line_numbers" } } // para settings
+    , { "command": "toggle_setting" , "args": {"setting": "move_to_limit_on_up_down" } } // para settings
+    // , { "command": "open_url" , "args": {"url": "http://google.com" } } // para settings
+    // , { "command": "toggle_overwrite" }
+    // , { "command": "show_scope_name" }
+    , { "command": "set_setting" , "args": {"setting": "show_tab_close_buttons", "value": true} } // para settings;
+
+
+
+    // , { "command": "set_setting", "args": { "toggle_tabs": false } }
+
+/*
+    , { "command": "unexpand_tabs", "args": { "set_translate_tabs": true } }
+    , { "command": "expand_tabs", "args": { "set_translate_tabs": true } }
+    , { "command": "set_setting", "args": { "setting": "tab_size", "value": 4 } }
+*/
+]

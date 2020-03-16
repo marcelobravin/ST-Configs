@@ -1,0 +1,11 @@
+http://docs.sublimetext.info/en/latest/customization/menus.html
+
+command: open_context_url {"event": {"x": 70.5, "y": 106.5}}
+
+
+http://docs.sublimetext.info/en/latest/reference/commands.html
+
+The simplest way is to bring up the console and type:
+
+sublime.log_commands(True)
+https://packagecontrol.io/docs/syncing

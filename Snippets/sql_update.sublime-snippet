@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[UPDATE
+  locations
+SET
+  coluna = 'valor'
+WHERE
+  id = 1]]></content>
+  <tabTrigger>update</tabTrigger>
+  <scope>text.html.basic, source.php, source.sql</scope>
+</snippet>

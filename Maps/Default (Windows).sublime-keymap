@@ -1,0 +1,145 @@
+[
+  /* Executa macro condicionalmente */
+  {
+      "keys": ["ctrl+b"],
+      "command": "run_macro_file",
+      "args": {"file": "res://Packages/User/macros/espaco.sublime-macro"},
+      "context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.coffee"}]
+  },
+
+
+
+
+  // meu macro
+  {
+    "keys": ["alt+m"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/User/macros/espaco.sublime-macro"}
+    // "args": {"file": "res://Packages/User/macros/macr.sublime-macro"}
+  },
+
+  {
+    "keys": ["alt+/"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/User/macros/ponto_e_virgula.sublime-macro"}
+  },
+
+  {
+    "keys": ["alt+w"],
+    "command": "toggle_setting",
+    "args": {"setting": "word_wrap"}
+  },
+
+  {
+    "keys": ["f5"],
+    "command": "insert_timestamp"
+  },
+
+  // { "keys": ["ctrl+f"],
+  //   "command": "slurp_find_string"
+  // },
+
+  // { "keys": ["ctrl+e"], "command": "slurp_find_string" },
+
+/*
+  // context
+  { "keys": ["ctrl+k", "ctrl+e"],
+    "command": "encode_html_entities"
+  },
+*/
+
+  { "keys": ["ctrl+shift+a"],
+    "command": "expand_selection",
+    "args": {"to": "scope"}
+  },
+
+  { "keys": ["ctrl+alt+shift+s"],
+    "command": "save_all"
+  },
+
+  // crtl + alt : conflita com giro de tela
+  { "keys": ["shift+alt+up"],
+    "command": "select_lines",
+    "args": {"forward": false}
+  },
+
+  { "keys": ["shift+alt+down"],
+    "command": "select_lines",
+    "args": {"forward": true}
+  },
+/*
+ctrl+shift_enter
+  { "keys": ["shift+enter"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/Default/Add Line Before.sublime-macro"}
+  },
+*/
+  // Impede que copie
+  { "keys": ["shift+delete"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"}
+  },
+/*
+ctrl+shift+del
+  { "keys": ["alt+shift+delete"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"}
+  },
+
+ctrl+shift+backspace
+  { "keys": ["alt+delete"],
+    "command": "run_macro_file",
+    "args": {"file": "res://Packages/Default/Delete to Hard BOL.sublime-macro"}
+  },
+*/
+  { "keys": ["ctrl+v"],
+    "command": "paste_and_indent"
+  },
+
+/*
+  {
+    "keys": ["shift+alt+right"],
+    "command": "expand_selection", "args": {"to": "scope"}
+  },
+*/
+
+  {
+    "keys": ["alt+shift+6"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 0.5, 1.0],
+      "rows": [0.0, 0.5, 1.0],
+      "cells":
+      [
+        [0, 0, 1, 2],
+        [1, 0, 2, 1],
+        [1, 1, 2, 2]
+      ]
+    }
+  },
+
+  /* PLUGIN */
+	{ "keys": ["ctrl+alt+up"],
+    "command": "inc_dec_value",
+    "args": { "action": "inc_max" }
+  },
+
+  // Conflita com girar tela
+  { "keys": ["ctrl+alt+down"],
+    "command": "inc_dec_value",
+    "args": { "action": "dec_max" }
+  },
+
+  // Conflita com girar tela
+  { "keys": ["shift+ctrl+alt+up"],
+    "command": "inc_dec_value",
+    "args": { "action": "inc_all" }
+  },
+
+  { "keys": ["shift+ctrl+alt+down"],
+    "command": "inc_dec_value",
+    "args": { "action": "dec_all" }
+  }
+
+]

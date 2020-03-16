@@ -1,0 +1,52 @@
+{
+	"added_words":
+	[
+	],
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "phase",
+	"color_scheme": "Packages/User/Themes/Starlight.tmTheme",
+	"dictionary": "Packages/User/Languages/Portuguese (Brazilian).dic",
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": false,
+	"fade_fold_buttons": false,
+	"find_selected_text": true,
+	"font_size": 10,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"php",
+		"http",
+		"ok"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"last_modified_indicator_file_save_clear": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"move_to_limit_on_up_down": true,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		80,
+		120
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"show_tab_close_buttons": false,
+	"spell_check": false,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}

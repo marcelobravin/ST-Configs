@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[\$_GET]]></content>
+  <tabTrigger>get</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

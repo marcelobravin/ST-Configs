@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[var parametros = {
+  id: 1,
+  nome: 'João'
+};
+
+var request = \$.ajax({
+  type: 'GET',
+  url: 'controle/pagina.php',
+  dataType: 'html',
+  data: parametros,
+  beforeSend: function(xhr) {
+    xhr.overrideMimeType('text/plain; charset=x-user-defined');
+    \$("body").append("<div id='ajaxLoader'></div>");
+  }
+});
+
+request.done(function(data) {
+  console.log(data);
+});
+
+request.fail(function(jqXHR, textStatus) {
+  console.log(jqXHR);
+  alert("Ocorreu uma falha na requisição ajax!");
+});
+
+request.always(function() {
+  \$('#ajaxLoader').remove();
+});]]></content>
+  <tabTrigger>ajax</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[true]]></content>
+  <tabTrigger>1</tabTrigger>
+  <scope>source.php, source.js</scope>
+</snippet>

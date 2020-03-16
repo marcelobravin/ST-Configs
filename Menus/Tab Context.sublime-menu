@@ -1,0 +1,36 @@
+[
+	{
+		"caption": "-",
+		"id": "K",
+	},
+
+	{
+		"id": "preferences",
+		"mnemonic": "n",
+		"caption": "MARK",
+		"children": [
+			{ "caption": "clone_file", "command": "clone_file" },
+			{ "caption": "revert", "command": "revert" },
+			{ "caption": "close_all", "command": "close_all" },
+
+			{
+				"caption": "teste"
+				, "id": "preferences"
+				, "children": [
+					{ "caption": "expand_tabs", "command": "expand_tabs" },
+					{ "caption": "unexpand_tabs", "command": "unexpand_tabs" }
+				]
+			}
+/*
+			{ "caption": "close_all",
+				"children":
+				[
+					{ "caption": "Upload File", "command": "sftp_upload_file" },
+					{ "caption": "Upload Open Files", "command": "sftp_upload_open_files" },
+					{ "caption": "Download File", "command": "sftp_download_file" },
+				]
+			}
+*/
+		]
+	}
+]

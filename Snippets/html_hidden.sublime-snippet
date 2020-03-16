@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[<input type="hidden" name="${2:snippet}" id="${2:snippet}" value="1" />]]></content>
+  <tabTrigger>hidden</tabTrigger>
+  <scope>text.html.basic, source.php</scope>
+</snippet>

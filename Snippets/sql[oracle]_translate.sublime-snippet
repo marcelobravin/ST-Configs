@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[TRANSLATE(tabela.campo, 'àáâãäåèéêëìíîïòóôõöøùúûüçñÀÁÂÃÄÅÈÉÊËÌÍÎÏÒÓÔÕÖØÙÚÛÜÇÑ', 'aaaaaaeeeeiiiioooooouuuucnAAAAAAEEEEIIIIOOOOOOUUUUCN') xxxx]]></content>
+  <tabTrigger>translate</tabTrigger>
+  <scope>text.html.basic, source.php, source.sql</scope>
+</snippet>

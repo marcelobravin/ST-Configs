@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="">
+  </head>
+  <body>
+
+  </body>
+</html>]]></content>
+  <tabTrigger>html</tabTrigger>
+  <scope>text.html.basic, source.php</scope>
+</snippet>

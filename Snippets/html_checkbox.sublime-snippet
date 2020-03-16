@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[<input type="checkbox" name="${2:snippet}" id="${2:snippet}" value="1" />]]></content>
+  <tabTrigger>checkbox</tabTrigger>
+  <scope>text.html.basic, source.php</scope>
+</snippet>

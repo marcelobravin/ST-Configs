@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[/**
+ * GRIMOIRE
+ * @package    grimoire
+ * @subpackage grimoire/biblioteca
+ * @subpackage grimoire/modelos
+ *
+ * Biblioteca de funções procedurais para agilização de tarefas
+ * rotineiras de desenvolvimento web, como criação de elementos
+ * html, criação de instruções sql, validação de dados, etc.
+ *
+ * @category Microframework
+ * @since    quarta-feira, 29 de maio de 2013, 12:11:54
+ * @version  06/09/2016 (@see versao.txt)
+ * @author   Marcelo de Souza Bravin <marcelo.bravin@gmail.com>
+ * @author   Henrique Rodrigues da Costa <h.rodrigues.ti@gmail.com>
+ * @access   public
+ * @license  Open Source - MIT License : {@link: http://www.opensource.org/licenses/mit-license.php}
+ * Redistributions of files must retain the above copyright notice.
+*/]]></content>
+  <tabTrigger>doc</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

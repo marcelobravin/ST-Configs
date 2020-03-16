@@ -1,0 +1,26 @@
+[
+/* Teste para identar arquivo inteiro */
+  // alt+1~1
+  {
+    "command": "select_all"
+  }
+
+  , {
+    "args": {"characters": "null"},
+    "command": "encode_html_entities"
+  }
+
+  , {
+    "command": "indent"
+  }
+
+  , {
+    "command": "single_selection"
+  }
+
+  , {
+    "command": "sublime.log_commands(True)",
+    // "args": {"panel": "console", "toggle": true}
+  }
+
+]

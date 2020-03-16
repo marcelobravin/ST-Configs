@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[SELECT
+  *
+FROM
+  tabela
+WHERE
+  1 = 1
+  AND 2 = 2]]></content>
+  <tabTrigger>select</tabTrigger>
+  <scope>text.html.basic, source.php, source.sql</scope>
+</snippet>

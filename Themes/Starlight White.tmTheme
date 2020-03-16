@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>author</key>
+        <string>Marcelo de Souza Bravin</string>
+        <key>comment</key>
+        <string>marcelo.bravin@gmail.com, 2014</string>
+        <key>name</key>
+        <string>Starlight</string>
+        <key>settings</key>
+        <array>
+            <dict>
+                <key>settings</key>
+                <dict>
+                    <!-- Fundo -->
+                    <key>background</key>
+                    <string>#FFFFFF</string>
+                    <!-- Cursor -->
+                    <key>caret</key>
+                    <string>cyan</string>
+                    <!-- Texto & numeros das linhas -->
+                    <key>foreground</key>
+                    <string>#000000</string>
+                    <key>invisibles</key>
+                    <string>#FF00FF</string>
+                    <!-- Linha selecionada -->
+                    <key>lineHighlight</key>
+                    <string>#00000044</string>
+                    <!-- Conteudo selecionado -->
+                    <key>selection</key>
+                    <string>#0DF0FF33</string>
+                    <!-- <key>selectionForeground</key>
+                    <string>#FFFFFF</string> -->
+
+                    <!-- <key>selectionBorder</key>
+                    <string>green</string> -->
+
+                    <key>inactiveSelection</key>
+                    <string>#0DF0FF0F</string>
+
+                    <!-- Gutter -->
+                    <key>gutter</key>
+                    <string>#090909</string>
+                    <key>gutterForeground</key>
+                    <string>#333333</string>
+
+                    <!-- Guidelines - Só funciona se guidelines estiverem habilitadas -->
+                    <key>guide</key>
+                    <string>#222222</string>
+                    <key>activeGuide</key>
+                    <string>cyan</string>
+                    <key>stackGuide</key>
+                    <string>#777777</string>
+
+                    <key>findHighlight</key>
+                    <string>#FFE792</string>
+                    <key>findHighlightForeground</key>
+                    <string>#000000</string>
+
+                    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+
+                    <key>bracketsForeground</key>
+                    <!-- <string>#F8F8F2A5</string> -->
+                    <string>blue</string>
+                    <key>bracketsOptions</key>
+                    <string>underline</string>
+
+                    <key>bracketContentsForeground</key>
+                    <!-- <string>#08F8F2A5</string> -->
+                    <string>red</string>
+                    <key>bracketContentsOptions</key>
+                    <string>underline</string>
+<!--
+                    <key>tagsOptions</key>
+                    <string>stippled_underline</string>
+ -->
+
+<!--
+                    <key>popupCss</key>
+                    <string>
+                      html { background-color: #111111; color: #f8f8f2; }
+                      a { color: red; }
+                      a:hover { color: red; }
+                      .error, .deleted { color: #f92672; }
+                      .success, .inserted, .name { color: #a6e22e; }
+                      .warning, .modified { color: #e6db74; }
+                      .type { color: #a1efe4; font-style: italic; }
+                      .param { color: #fd971f; }
+                      .current { text-decoration: underline; }
+                    </string>
+-->
+
+                </dict>
+            </dict>
+
+<!-- ===================================== -->
+
+
+
+
+            <dict>
+              <key>name</key>
+              <string>form html</string>
+              <key>scope</key>
+              <string>embedding.php text.html.basic meta.tag.block.form.html entity.name.tag.block.form.html</string>
+              <key>settings</key>
+              <dict>
+                <key>foreground</key>
+                <string>red</string>
+                <key>background</key>
+                <string>#ae81ff</string>
+              </dict>
+            </dict>
+
+
+
+        </array>
+        <key>uuid</key>
+        <string>dd308b90-1f7d-47cf-af35-3b6ff10fe686</string>
+        <key>license</key>
+        <string>
+            Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+            The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        </string>
+
+    </dict>
+</plist>

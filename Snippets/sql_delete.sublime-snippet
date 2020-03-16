@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[DELETE FROM
+  tabela
+WHERE
+  id = 1]]></content>
+  <tabTrigger>delete</tabTrigger>
+  <scope>text.html.basic, source.php, source.sql</scope>
+</snippet>

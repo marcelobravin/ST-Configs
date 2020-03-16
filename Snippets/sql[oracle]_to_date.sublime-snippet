@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[to_date('01/01/2016 10:45:00','dd/mm/yyyy hh24:mi:ss')]]></content>
+  <tabTrigger>to_date</tabTrigger>
+  <scope>text.html.basic, source.php, source.sql</scope>
+</snippet>

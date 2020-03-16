@@ -1,0 +1,277 @@
+[
+/*
+    {
+        "button": "button1",
+        // "command": "show_scope_name"
+        "modifiers": ["alt"],
+        "command": "show_at_center"
+    },
+*/
+/*
+    {
+        "button": "button2",
+        "count": 1,
+        "modifiers": ["button1"],
+        "command": "show_at_center"
+    },
+*/
+
+
+    // Simple chording: hold down mouse 2, and click mouse 1
+    {
+        "button": "button1",
+        "modifiers": ["button2"],
+        // "command": "show_at_center"
+        "command": "expand_selection",
+        "args": {"to": "scope"}
+    },
+
+
+    {
+        /* www.google.com */
+        "button": "button1",
+        "count": 1,
+        "modifiers": ["alt"],
+        "command": "open_context_url"
+    },
+    // PLUGIN
+    {
+        /* <img src="../imagens/top_bg_menu_interlaced.gif"> */
+        "button": "button1",
+        "count": 2,
+        "modifiers": ["alt"],
+        "command": "open_include"
+    },
+
+    // Botao direito =========================================
+    {
+        "button": "button2",
+        "modifiers": ["ctrl"],
+        "command": "paste_from_history"
+    },
+
+    {
+        "button": "button2",
+        "modifiers": ["alt"],
+        "command": "toggle_side_bar"
+    },
+    // { // ctrl+shift+alt+p
+    //     "button": "button2",
+    //     "modifiers": ["alt", "ctrl", "shift"],
+    //     "command": "show_scope_name"
+    // },
+
+    // Botao do meio =========================================
+
+    { //
+        "button": "button3",
+        // "command": "reindent"
+        // "command": "show_at_center"
+        "command": "paste_and_indent"
+        // "command": "toggle_sidebar" // ???????????????????????????????????????????????????????????????????????
+    },
+    {
+        "button": "button3",
+        "modifiers": ["shift"],
+        "command":  "show_overlay",
+        "args": {"overlay": "goto", "show_files": true}
+    },
+    {
+        "button": "button3",
+        "modifiers": ["ctrl"],
+        "command": "close_file"
+    },
+    {
+        "button": "button3",
+        "modifiers": ["alt"],
+        "command": "reopen_last_file"
+    },
+
+    // Botao do meio ===========================================================
+    /* PLUGIN NÚMEROS */
+    {
+        "button": "scroll_up",
+        "modifiers": ["alt"],
+        "command": "inc_dec_value",
+        "args": { "action": "inc_min" }
+    },
+    {
+        "button": "scroll_down",
+        "modifiers": ["alt"],
+        "command": "inc_dec_value",
+        "args": { "action": "dec_min" }
+    },
+    {
+        "button": "scroll_up",
+        "modifiers": ["alt", "ctrl"],
+        "command": "inc_dec_value",
+        "args": { "action": "inc_max" }
+    },
+    {
+        "button": "scroll_down",
+        "modifiers": ["alt", "ctrl"],
+        "command": "inc_dec_value",
+        "args": { "action": "dec_max" }
+    },
+    {
+        "button": "scroll_up",
+        "modifiers": ["alt", "ctrl", "shift"],
+        "command": "inc_dec_value",
+        "args": { "action": "inc_all" }
+    },
+    {
+        "button": "scroll_down",
+        "modifiers": ["alt", "ctrl", "shift"],
+        "command": "inc_dec_value",
+        "args": { "action": "dec_all" }
+    },
+
+
+/* VIEWS */
+    {
+        "button": "scroll_up",
+        "modifiers": ["alt", "shift"],
+        "command": "next_view"
+    },
+    {
+        "button": "scroll_down",
+        "modifiers": ["alt", "shift"],
+        "command": "prev_view"
+    },
+
+
+
+/* FILE */
+    {
+        "button": "scroll_up",
+        "modifiers": ["ctrl", "shift"],
+        "command": "scroll_to_bof"
+    },
+    {
+        "button": "scroll_down",
+        "modifiers": ["ctrl", "shift"],
+        "command": "scroll_to_eof"
+    },
+
+    // ,{
+    //     "button": "button2",
+    //     // "count": 1,
+    //     "modifiers": ["button1"],
+    //     "command": "next_view"
+
+    // },
+
+
+    // {
+    //     "button": "button1",
+    //     "count": 1,
+    //     "press_command": "drag_select",
+    //     "command": "next_view"
+    // },
+
+
+/*
+    -- XXX
+    // Basic drag select
+    {
+        "button": "button1", "count": 1,
+        "press_command": "drag_select_callback"
+    },
+    {
+        "button": "button1", "count": 1, "modifiers": ["ctrl"],
+        "press_command": "drag_select_callback",
+        "press_args": {"additive": true}
+    },
+    {
+        "button": "button1", "count": 1, "modifiers": ["alt"],
+        "press_command": "drag_select_callback",
+        "press_args": {"subtractive": true}
+    },
+
+    // Select between selection and click location
+    {
+        "button": "button1", "modifiers": ["shift"],
+        "press_command": "drag_select_callback",
+        "press_args": {"extend": true}
+    },
+    {
+        "button": "button1", "modifiers": ["shift", "ctrl"],
+        "press_command": "drag_select_callback",
+        "press_args": {"additive": true, "extend": true}
+    },
+    {
+        "button": "button1", "modifiers": ["shift", "alt"],
+        "press_command": "drag_select_callback",
+        "press_args": {"subtractive": true, "extend": true}
+    },
+
+    // Drag select by words
+    {
+        "button": "button1", "count": 2,
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "words"}
+    },
+    {
+        "button": "button1", "count": 2, "modifiers": ["ctrl"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "words", "additive": true}
+    },
+    {
+        "button": "button1", "count": 2, "modifiers": ["alt"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "words", "subtractive": true}
+    },
+
+    // Drag select by lines
+    {
+        "button": "button1", "count": 3,
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "lines"}
+    },
+    {
+        "button": "button1", "count": 3, "modifiers": ["ctrl"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "lines", "additive": true}
+    },
+    {
+        "button": "button1", "count": 3, "modifiers": ["alt"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "lines", "subtractive": true}
+    },
+
+    // Shift + Mouse 2 Column select
+    {
+        "button": "button2", "modifiers": ["shift"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "columns"}
+    },
+    {
+        "button": "button2", "modifiers": ["shift", "ctrl"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "columns", "additive": true}
+    },
+    {
+        "button": "button2", "modifiers": ["shift", "alt"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "columns", "subtractive": true}
+    },
+
+    // Mouse 3 column select
+    {
+        "button": "button3",
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "columns"}
+    },
+    {
+        "button": "button3", "modifiers": ["ctrl"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "columns", "additive": true}
+    },
+    {
+        "button": "button3", "modifiers": ["alt"],
+        "press_command": "drag_select_callback",
+        "press_args": {"by": "columns", "subtractive": true}
+    },
+
+*/
+]

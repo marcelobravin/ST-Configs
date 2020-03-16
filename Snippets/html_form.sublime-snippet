@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[<form action="${1:arquivo.php}" method="${2:post}">
+  <input type="text" name="snippet" id="snippet" value="snippet" />
+  <input type="password" name="snippet" id="snippet" value="1" />
+  <input type="radio" name="snippet" id="snippet" value="1" />
+  <input type="checkbox" name="snippet" id="snippet" value="1" />
+  <input type="hidden" name="snippet" id="snippet" value="1" />
+  <input type="password" name="snippet" id="snippet" value="1" />
+  <textarea name="snippet" id="snippet">snippet</textarea>
+  <select name="snippet" id="snippet">
+    <option value="valor">Texto</option>
+  </select>
+  <input type="submit" value="snippet" />
+</form>]]></content>
+  <tabTrigger>form</tabTrigger>
+  <scope>text.html.basic, source.php</scope>
+</snippet>
