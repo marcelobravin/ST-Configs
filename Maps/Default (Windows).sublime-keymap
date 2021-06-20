@@ -57,6 +57,10 @@
     "command": "save_all"
   },
 
+  { "keys": ["ctrl+alt+shift+c"],
+    "command": "copy_with_line_numbers"
+  },
+
   // crtl + alt : conflita com giro de tela
   { "keys": ["shift+alt+up"],
     "command": "select_lines",

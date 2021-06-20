@@ -143,6 +143,8 @@
               </dict>
             </dict>
 
+
+
             <dict>
               <key>name</key>
               <string>Bracket Highlighter Default</string>
@@ -154,7 +156,6 @@
                 <string>#ae81ff</string>
               </dict>
             </dict>
-
             <dict>
               <key>name</key>
               <string>Bracket Highlighter Unmatched</string>
@@ -166,7 +167,6 @@
                 <string>#f92672</string>
               </dict>
             </dict>
-
             <dict>
               <key>name</key>
               <string>Bracket Highlighter Curly</string>

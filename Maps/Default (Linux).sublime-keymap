@@ -141,11 +141,6 @@ ctrl+shift+backspace
   { "keys": ["shift+ctrl+alt+down"],
     "command": "inc_dec_value",
     "args": { "action": "dec_all" }
-  },
-
-    { "keys": ["ctrl+alt+d"],
-      "command": "inc_dec_value",
-      "args": { "action": "dec_all" }
-    }
+  }
 
 ]
